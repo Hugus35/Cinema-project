@@ -15,14 +15,14 @@ Only name.basics, title.basics and title.ratings and title.principals have been 
 - First of all, open a terminal and locate you in the project repository.
 - It is better to create an environment for this project, to avoid version conflits (Some packages are used by Conda, it is better not to be on the base environment).
 - Make sure you have a Python version over 3.11 on this environment.
-- Install every mandatory library with the command:
+- Install every mandatory library with the command:  
     $ pip install -r requirements.txt
-- If it is the first time you use the project, you need to recreate database from scratch. So you need to use :
-    $ python setup_database.py 
+- If it is the first time you use the project, you need to recreate database from scratch. So you need to use :  
+    $ python setup_database.py  
     The next time you launch the project, it is not compulsory to recreate the database since it is saved on your project repository.
-- Then, launch the API with :
+- Then, launch the API with :  
     $ uvicorn app:app --reload
-- Finally, plot the different statistics with :
+- Finally, plot the different statistics with :  
     $ streamlit run frontend.py
     (Not working on Safari browser, prefer Firefox)
 
