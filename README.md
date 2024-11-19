@@ -1,7 +1,7 @@
 # Cinema history
 ## The project
 This project aims to plot some statistics and graphical presentations about cinema.
-Data are gathered from the website IMDb, here is the link of the different files : [text](https://datasets.imdbws.com). 
+Data are gathered from the website IMDb, here is the link of the different files : [imdbws](https://datasets.imdbws.com). 
 Only name.basics, title.basics and title.ratings and title.principals have been used so far.
 
 ## Project process
